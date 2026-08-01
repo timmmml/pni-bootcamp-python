@@ -1,0 +1,23 @@
+\mypic{}{
+  \node at (50, 92) [title] {The \lstinline|__main__| Pattern};
+
+  \node[text width=0.44\paperwidth, align=left, anchor=north] at (28, 82) {
+  \textbf{A good script separates definitions from execution}\\[6pt]
+  \lstinline|def load_data():|\\
+  \lstinline|    ...|\\[4pt]
+  \lstinline|def train_model(data):|\\
+  \lstinline|    ...|\\[4pt]
+  \lstinline|def main():|\\
+  \lstinline|    data = load_data()|\\
+  \lstinline|    train_model(data)|\\[4pt]
+  \lstinline|if __name__ == "__main__":|\\
+  \lstinline|    main()|
+  };
+
+  \node[text width=0.40\paperwidth, align=left, anchor=north] at (74, 82) {
+  \textbf{Why it matters}\\[6pt]
+  When a file is run directly, Python sets \lstinline|__name__| to \lstinline|"__main__"|.\\[8pt]
+  When a file is imported, Python sets \lstinline|__name__| to the module name.\\[8pt]
+  Therefore this pattern prevents expensive experiment code from running accidentally during import.
+  };
+}
