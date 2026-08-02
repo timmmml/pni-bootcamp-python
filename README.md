@@ -4,11 +4,13 @@ Notebooks for the afternoon session: Python fundamentals, dynamic programming, a
 
 ## Setup
 
+We use [uv](https://docs.astral.sh/uv/) to manage the environment. Install uv, then from the repo root:
+
 ```bash
-conda env create -f environment.yml
-conda activate pni-python-bootcamp
-jupyter notebook notebooks/
+uv sync
 ```
+
+This creates a `.venv` with everything you need. Open the notebooks in Jupyter or VS Code and select the `.venv` kernel that `uv sync` created.
 
 No local install? Use the Colab copies in `notebooks/colab/` instead — open a notebook, upload it to [Colab](https://colab.research.google.com/), and run.
 
