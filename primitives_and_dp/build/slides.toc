@@ -1,3 +1,0 @@
-\beamer@sectionintoc {1}{Part 1 --- Python 101}{3}{0}{1}
-\beamer@sectionintoc {2}{Part 2 --- Dynamic Programming}{15}{0}{2}
-\beamer@sectionintoc {3}{Part 3 --- Hidden Markov Model}{26}{0}{3}

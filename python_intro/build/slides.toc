@@ -1,2 +1,0 @@
-\beamer@sectionintoc {1}{Title}{1}{0}{1}
-\beamer@sectionintoc {2}{Python as a Computing System}{4}{0}{2}
